@@ -15,3 +15,5 @@ console.log(escola.substring(0,3)) // do indice 0 ate o 3 sem incluir o 3
 
 console.log(escola.replace("s","$")) // faz um replace da primeira ocorencia
 console.log("pão da ".concat(escola).concat("!")) // concatena 
+
+console.log("pão,manteiga ,mel,vidro".split(",")) // splita uma string e coloca em um array
